@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+     <meta charset="utf-8">
+     <meta name="author" content="Laura Arnold">
+     <meta name="description" content="A website about Dogs.">
+     <link href="styles/styles.css" rel="stylesheet">
+     <!--<link rel="shortcut icon" href="favicon.ico" type="image/dog.png">-->
+     <title>My test page</title>
+
+</head>
+<body>
+     
+     <nav>
+
+          <form class="navbar">
+
+               <li class="navs"><a href="index.html">Home</a></li>
+               <li class="navs"><a href="About.html">About</a></li>
+               <li class="navs"><a href="FAQ.html">FAQ</a></li>
+               <li class="navs"><a href="Contact.html">Contact Us</a></li>
+
+          
+               <label>Extra Help:</label>
+               <input type="search" name="q" placeholder="Search query">
+               <input type="submit" value="Go!">
+         
+          </form>
+
+     </nav>
+
+     
+      <aside>
+
+        
+          <li class="sidebars"><a href="#">Dog Facts</a></li>
+          <li class="sidebars"><a href="#">Dog Images</a></li>
+          <li class="sidebars"><a href="#">Feeding</a></li>
+          <li class="sidebars"><a href="#">Walking</a></li>
+          <li class="sidebars"><a href="#">Bathing</a></li>
+        
+      </aside>
+
+
+
+     <h1> Dogs </h1>
+     <img src="images/dog.png" alt="My test image">
+
+     <div class="sec1">
+          <img class="sub2" src="images/dog_playing.png" alt="My test image">   
+          <h2>Introduction</h2>
+          <p> Dogs are <strong>cute</strong> and <strong>friendly</strong> pets.</p>     
+
+     </div>
+          
+     <div class="sec2">
+          <h3>What is involved?</h3>
+          <p> It takes a lot of responsibility to look after a dog. This involves</p>
+          <ul class="bulletp">
+               <li>Feeding</li>
+               <li>Walking</li>
+               <li>Bathing</li>
+          </ul>
+          <p><strong>More information:</strong></p>
+          <dl>
+                 <dt>Feeding</dt>
+                 <dd>Dogs are supposed to be fed around <span>2-3</span> times a day.</dd>
+                 <dt>Walking</dt>
+                 <dd>Dogs need to be walked at least <span>twice</span> a day. The time depends on what age and size they are.</dd>
+                 <dt>Bathing</dt>
+                 <dd>Dogs should be bathed <span>every month</span>, unless the dog gets dirty.</dd>
+          </dl>
+     </div>
+
+     <div class="sec3">
+          <h4>Where to adopt?</h4>
+
+          <p>Here is a website where you can adopt a dog, visit <a href="https://www.dogstrust.org.uk/" title="Dogs Trust!">Dogs Trust</a>.</p>
+          <p><strong>Where to find them???</strong></p>
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2353.485461375171!2d-1.3807254479167053!3d53.852014979990386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879444eceff0855%3A0x9423f50f86a878ee!2sDogs%20Trust%20Leeds!5e0!3m2!1sen!2suk!4v1571129742997!5m2!1sen!2suk" id="video" frameborder="0" style="border:0;" allowfullscreen=""></iframe> <br>
+
+     </div>
+
+     <div class="sec4">
+
+          <script type="text/javascript">
+
+          function confSubmit(form) {
+          if (confirm("Are you sure you want to submit your query?")) {
+          form.submit();
+          window.alert("You Query is being processed")
+          }
+
+          else {
+          alert("You decided to not submit the query!");
+          }
+          }
+
+
+          </script>
+
+          <p><strong>Query Form</strong></p>
+               <div class="box">If you have  a query enter your query here. Your query can include: <br>-problems with this website <br>-Problems with how to take care of a dog. <br>-Any other questions which you want to be included on the FAQ page<br>Please enter your all your details.
+               </div>
+          <form action="/my-form-page" method="post">
+                 <div class="querys">
+                        <label for="name">Name:</label>
+                        <input class="area" type="text" id="name" name="user_name">
+                 </div>
+
+                 <div class="querys">
+                    <label for="country">Country</label>
+                   <select class="area" id="country" name="country">
+                     <option value="UK">UK</option>
+                     <option value="Spain">Spain</option>
+                     <option value="USA">USA</option>
+                     <option value="other">Other</option>
+                   </select>
+                 </div>
+
+                 <div class="querys">
+                        <label for="mail">E-mail:</label>
+                        <input class="area" type="email" id="mail" name="user_mail">
+                 </div>
+
+                 <div class="querys">
+                        <label for="msg">Message:</label>
+                        <textarea class="area" id="msg" name="user_message"></textarea>
+                 </div>
+
+                 <div class="button">
+                         
+                        <button class="button1" type="reset" onClick="confSubmit(this.form);"><strong>Submit your Query</strong></button>
+
+                        <button class="button1" type="reset"> <strong>Reset </strong></button>
+
+                 </div>
+          </form>
+     </div>
+
+     <div class="sec5">
+          <iframe  id="video" src="https://www.youtube.com/embed/WSG1YpM26i4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div>
+
+     <div class="sec6">
+          <address>
+               <p>Created by Laura, UK</p>
+          </address>
+          <p>My birthday is on the 3rd<sup>th</sup> of February 2001.</p>
+          <time datetime="2019-10-15">15 October 2019</time>
+     </div>
+
+     <button id="btn"><strong>Change user</strong></button>
+
+     <footer>
+          <p>©Copyright 2020 by nobody. All rights reversed.</p>
+     </footer>
+
+     <script src="scripts/main.js"></script>
+</body>
+</html>

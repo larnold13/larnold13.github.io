@@ -1,0 +1,227 @@
+*{
+	font-family: 'Mansalva', cursive;
+
+}
+html {
+  background-color: #8EF0FF;
+}
+body {
+  width: 65vw;
+  margin: 0 auto;
+  background-color: #ffff80;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+
+h1{
+	font-size: 5vw;
+	text-align: center;
+	float: center;
+	margin: 0;
+	padding: 20px 0;   
+	text-shadow: 3px 3px 1px black;
+}
+
+h2,h3{
+  /*display: block;
+  margin: 0 auto;
+  text-align: center;*/
+  padding-top: 10px;
+}
+p, li {
+  font-size: 0.9vw;    
+  /*line-height: 2;*/
+  letter-spacing: 1px;
+  /*text-align: center;*/
+}
+img {
+  width: 30vw;
+  display: block;
+  margin: 0 auto;
+
+}
+
+/*The links*/
+ul{
+	color: #595959;
+  list-style-type: circle;
+
+}
+a {
+  color: blue;
+}
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: purple;
+}
+
+button{
+	background-color: #8EF0FF;
+  width: 9vw;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+.button1{
+  background-color: #8EF0FF;
+  width: 9vw;
+  display: inline;
+  margin: 0 auto;
+  
+}
+
+button {
+  color: blue;
+  padding: 5px;
+  font-size: 0.9vw;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+button:link {
+  color: blue;
+}
+
+button:visited {
+  color: green;
+}
+button:hover {
+  color: red;
+}
+
+button:active {
+  color: purple;
+}
+
+#video{
+  display: block;
+  margin: 0 auto;
+  width: 30vw;
+  height: 20vw;
+
+}
+
+/*The navigations*/
+.navs{
+  font-size: 0.9vw;
+  display: inline;
+  color: blue;
+  background-color: #8EF0FF;
+  list-style-type: none;
+  margin: 1vw;
+  padding: 2vw;
+  width: 22vw;
+  border: 2px solid black;
+}
+
+
+.navs:hover {
+  background-color: #555;
+  color: white;
+}
+
+.navbar{
+  overflow: hidden;
+  position: fixed;
+  display: inline;
+  margin: 0.3px;
+  border: 5px solid black;
+  border-radius: 8px;
+  padding: 7px;
+  width: 63vw;
+  background-color: #fff0b3;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar{
+    float: none;
+    display: block;
+    width: 75%;
+    text-align: left;
+  }
+}
+
+
+/*bullet point style*/
+.bulletp{
+  align-content: center;
+}
+
+/*Splitting the content into sections and bordering them*/
+.sec2,.sec3,.sec4,.sec5,.sec6{
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 10px;
+  background-color: #fff0b3;
+  padding-left: 10px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+
+.sec1{
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 10px;
+  background-color: #fff0b3;
+  padding-left: 10px;
+  height: 170px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+/*Form styling*/
+.querys{
+  padding: 5px;
+}
+.area{
+  padding: 5px;
+  display: vertical block;
+  width: 95%;
+}
+
+/*Side navigation*/
+aside{
+  list-style-type: none;
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+/*Image in introduction*/
+.sub2{
+  width: 15vw;
+  height: 6.5vw;
+  float: right;
+  padding-right: 30px;
+
+}
+/*In information - make words bold*/
+span{
+  font-weight: bold;
+}
+
+/*Scroll box in form section*/
+.box {
+  border: 1px solid #333333;
+  width: 30vw;
+  height: 5vw;
+  overflow: scroll;
+}
+time{
+  font-size: 0.9vw;
+}
